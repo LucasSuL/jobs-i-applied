@@ -62,9 +62,9 @@ export default function Content({
   return (
     <div className="container ">
       <div className="row">
-        <div className="tags col-3 d-flex flex-column p-2 ">
+        <div className="tags col-3 d-flex flex-column p-1 ">
           <button
-            className="btn btn-all m-2 tag text-light fw-bold mb-4"
+            className="btn btn-all m-1 tag text-light fw-bold mb-4"
             onClick={handleAllClick}
           >
             All
@@ -76,9 +76,9 @@ export default function Content({
           </button>
           {tags}
         </div>
-        <div className="main col-9 p-2 ">
+        <div className="main col-9 p-1 ">
           {facts.length == 0 ? (
-            <p className="p-2">
+            <p className="p-1">
               No facts for this category, create your first one!
             </p>
           ) : (

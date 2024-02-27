@@ -12,8 +12,8 @@ export default function Header({ setFactList, factList }) {
     <header>
       <div class="container d-flex align-items-center justify-content-between p-3">
         <div className="d-flex align-items-center">
-          <img src="./logo.png" class="m-2 logo me-4" />
-          <h1 class="fw-bold">Archived Application</h1>
+          <img src="./logo.png" class="m-1 logo me-4" />
+          <h1 class="fw-bold me-1">Archived Application</h1>
         </div>
         <button
           type="button"

@@ -95,3 +95,12 @@ h1 {
 .skeleton-text.tag {
   height: 20px;
 }
+
+@media screen and (max-width: 640px) {
+  h1{
+    font-size: 18px;
+  }
+  .btn-tag{
+    font-size: 10px;
+  }
+}
