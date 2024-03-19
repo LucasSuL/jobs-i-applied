@@ -3,7 +3,8 @@
     { "name": "pending init res", "color": "#eab308" },
     { "name": "pending interview", "color": "#3BB143" },
     { "name": "pending 2nd interview", "color": "#0b6623" },
-    { "name": "rejected", "color": "#ef4444" }
+    { "name": "rejected", "color": "#ef4444" },
+    { "name": "on role", "color": "#111111" }
   ],
 
   "initialFacts": [

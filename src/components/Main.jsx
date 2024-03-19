@@ -2,6 +2,7 @@ import { CATEGORIES } from "../../data";
 import Tag from "./Tag";
 import Fact from "./Fact";
 
+
 export default function Content({
   factList,
   setFactList,
@@ -41,7 +42,7 @@ export default function Content({
 
   const facts = isLoaded ? (
     factList.map((fact) => {
-      return <Fact key={fact.id} fact={fact} setFactList={setFactList} />;
+      return <Fact key={fact.id} fact={fact}  setFactList={setFactList}/>;
     })
   ) : (
     <Loader />
